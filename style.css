@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.clock{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    color: white;
+}
+
+.hour, .minute, .second{
+    font-size: 100px;
+}
+
+.hour_div, .minute_div, .second_div{
+    font-size: 50px;
+}
